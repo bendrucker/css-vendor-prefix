@@ -1,7 +1,7 @@
 {
   "name": "css-vendor-prefix",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Detect the CSS vendor prefix for the current browser",
   "license": "MIT",
   "repository": "bendrucker/css-vendor-prefix",
