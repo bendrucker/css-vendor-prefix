@@ -1,0 +1,35 @@
+{
+  "name": "css-vendor-prefix",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Detect the CSS vendor prefix for the current browser",
+  "license": "MIT",
+  "repository": "bendrucker/css-vendor-prefix",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "css",
+    "vendor",
+    "prefix",
+    "styles",
+    "safari",
+    "internet explorer"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "global": "~4.3.0",
+    "to-array": "~0.1.4"
+  }
+}
