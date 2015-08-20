@@ -11,5 +11,6 @@ module.exports = detectVendorPrefix()
 function detectVendorPrefix () {
   if (!window.getComputedStyle) return ''
   var styles = window.getComputedStyle(document.documentElement, '')
-  return toArray(styles).join('').match(PREFIXES)[1]
+  var match = toArray(styles).join('').match(PREFIXES)
+  return match ? match[1] : ''
 }
